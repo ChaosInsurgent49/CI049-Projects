@@ -1,3 +1,4 @@
+var backuped = false;
 var projectdb = [
   {
     title:"Terratroid",
