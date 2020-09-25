@@ -1,9 +1,3 @@
-function waitfordb() {
-  if (!projectdb) {
-    setTimeout(waitfordb, 3000);
-  }
-}
-waitfordb();
 var k = '<h1 class="title" style="animation: 1s ease 0s normal 1 fadeIn;-webkit-animation: 1s ease 0s normal forwards 1 fadeIn;-moz-animation: 1s ease 0s normal forwards 1 fadeIn;-o-animation: 1s ease 0s normal forwards 1 fadeIn;-ms-animation: 1s ease 0s normal forwards 1 fadeIn;">CI049\'s Projects</h1><h2 class="title" style="animation: 2s ease 0s normal 1 fadeIn;-webkit-animation: 2s ease 0s normal forwards 1 fadeIn;-moz-animation: 2s ease 0s normal forwards 1 fadeIn;-o-animation: 2s ease 0s normal forwards 1 fadeIn;-ms-animation: 2s ease 0s normal forwards 1 fadeIn;">This is where CI049 stores projects.</h2>';
 var lengthoftext = 0;
 var searched = 0;
