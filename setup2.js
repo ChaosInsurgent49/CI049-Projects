@@ -19,5 +19,11 @@ var h = '<style>' + projectdb[j].css + '</style>';
 document.head.innerHTML += '<link rel="shortcut icon" type="image/jpg" href="icon.png" />';
 document.head.innerHTML += h;
 document.head.innerHTML += '<meta property="og:type" content="website"><meta property="og:title" content="' + projectdb[j].title + ' - CI049\'s Projects' + '" /><meta property="og:description" content="Version: ' + projectdb[j].updatestatus.version + ' - ' + projectdb[j].desc + '" /><meta property="og:url" content="https://codeprojects.org/DwWWDwkJ2sodZ2wRsITC1DjJ1E-lr4P1bc-LTIs1yOo/proj.html?id=' + j + '" /><meta property="og:image" content="https://codeprojects.org/DwWWDwkJ2sodZ2wRsITC1DjJ1E-lr4P1bc-LTIs1yOo/' + projectdb[j].image + '" />';
+k+= '<div id="alert-msg"></div>';
 document.getElementById("container1").innerHTML = k;
 document.title = projectdb[j].title + ' - CI049\'s Projects';
+if (backuped === true) {
+  document.getElementById("alert-msg").innerHTML = "<p>Note: This is fallback data.</p>";
+} else {
+  document.getElementById("alert-msg").parentNode.removeChild(document.getElementById("alert-msg"));
+}
