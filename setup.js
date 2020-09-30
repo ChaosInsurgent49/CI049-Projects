@@ -23,5 +23,11 @@ for(j = 0;j < projectdb.length; j++)
   k+= '</div>';
 }
 document.head.innerHTML += '<link rel="shortcut icon" type="image/jpg" href="icon.png" /><style>.proj:hover{transform: scale(1.025);}</style>';
+k+= '<div id="alert-msg"></div>';
 document.getElementById("container1").innerHTML = k;
 document.title = 'CI049\'s Projects';
+if (backuped === true) {
+  document.getElementById("alert-msg").innerHTML = "<p>Note: This is fallback data.</p>";
+} else {
+  document.getElementById("alert-msg").parentNode.removeChild(document.getElementById("alert-msg"));
+}
