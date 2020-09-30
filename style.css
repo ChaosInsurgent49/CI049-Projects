@@ -1,8 +1,8 @@
-body{font-family: 'Cascadia Code';background-color:#000000;color:#ffffff;}
+body{font-family: 'Cascadia Mono';background-color:#000000;color:#ffffff;}
 .updatestatus{background-color:#444444;border-radius:12px;padding:1px;padding-left:12px;}
 .proj{background-color:#222222;border:2px;border-radius:12px;padding:10px;border-style:double;border-color:#00aa00;margin-top:30px;transition: transform .2s;animation-fill-mode:backwards;}
 .frwbutton{color:#ffffff;background-color:#999999;text-decoration:none;border-radius:5px;padding:10px;margin:10px;}
-.title{font-family:'Cascadia Code';}
+.title{font-family:'Cascadia Mono';}
 .backbutton{color: #ffffff;background-color: #999999;border: 10px;border-radius: 10px;border-color: #ffffff;padding: 3px;text-decoration:none;}
 .fade-in {animation: fadeIn ease 20s;-webkit-animation: fadeIn ease 20s;-moz-animation: fadeIn ease 20s;-o-animation: fadeIn ease 20s;-ms-animation: fadeIn ease 20s;}
 #alert-msg {position:fixed;overflow:hidden;top:0;right:0;z-index:10000;text-align:center;align-self:center;border: #555555 solid thick;border-radius: 10px;background-color:#000000;}
@@ -16,7 +16,7 @@ body{font-family: 'Cascadia Code';background-color:#000000;color:#ffffff;}
 ::-webkit-scrollbar-thumb{background:#555;border-radius:10px;}
 ::-webkit-scrollbar-thumb:hover{background:#333;}
 body: {
-  font-family:'Cascadia Code' !important
+  font-family:'Cascadia Mono' !important
 }
 @font-face: {
   font-family: "Cascadia Code";
