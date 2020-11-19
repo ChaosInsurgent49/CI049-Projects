@@ -2,16 +2,16 @@ var backuped = false;
 var projectdb = [
   {
     title:"Terratroid",
-    desc:"A Terraria 1.4.0.5 music file that replaces Terraria music with music from the Metroid Series.<hr noshade>I've been putting Metroid music in the places of Terraria music and most of them actually work. There are a few exceptions to that (looking at you, hallow, underground hallow, town day, and town night) but it otherwise sounds kinda nice. Volume warning though.<br>",
+    desc:"A Terraria 1.4.1.2 music file that replaces Terraria music with music from the Metroid Series.<hr noshade>I've been putting Metroid music in the places of Terraria music and most of them actually work. There are a few exceptions to that (looking at you, hallow, underground hallow, town day, and town night) but it otherwise sounds kinda nice. Volume warning though.<br>",
     image:"icon.png",
     updatestatus: {
       status: "WIP",
       lastupdate: {
-        DD:"13",
-        MM:"10",
+        DD:"19",
+        MM:"11",
         YYYY:"2020",
-        hh:"22",
-        mm:"50"
+        hh:"21",
+        mm:"00"
       },
       version:"0.0.20"
     },
