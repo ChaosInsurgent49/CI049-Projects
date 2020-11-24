@@ -117,7 +117,7 @@ var projectdb = [
 	+ '{-- class="mp2">89-Terraria_Credits: Metroid Prime 2: Echoes Soundtrack - Ending Staff Roll--}'
 	+ '</ol>'
 	+ '<p>{== style="color:#ff0000;">WARNING==}: The old title, desert, dungeon, sandstorm, old one\'s army, slime rain, new title tracks, storm, graveyard, underground jungle, and duke fishron tracks are potentially lethal, I haven\'t eq\'d them yet. Use at own risk</p>'
-	+ '<p>Link to the file: <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.20/Wave%20Bank.xwb' + '">V0.0.20</a></p>'
+	+ '<p>Link to the file: <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.20/Wave%20Bank.xwb' + '">V0.0.20</a> <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.21/Wave%20Bank.xwb' + '">V0.0.21</a></p>'
 	+ '<p class="mnes">You can find the Metroid OST <a href="https://www.metroid-database.com/game/metroid/#audio">here</a></p>'
 	+ '<h5>You do need to click on "Metroid OST"</h5>'
 	+ '<p class="mzm">You can find the Metroid Zero Mission Soundtrack <a href="https://www.metroid-database.com/game/metroid-zero-mission/#audio">here</a></p>'
