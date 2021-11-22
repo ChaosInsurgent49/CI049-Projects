@@ -15,12 +15,13 @@ var projectdb = [
       },
       version:"0.0.20"
     },
-    css:"a{color:#5555ff;font-weight:600;}.mnes{color:#bb7700;}.sm{color:#ffff00;}.mf{color:#00ffff;}.mp{color:#ffaa00;}.mph{color:#ff0000;}.mp2{color:#aaaaaa;}.mp3{color:#00aaff;}.aaron{color:#aa00ff;font-weight:600;}.am2r{color:#aaff00;}.mzm{color:#00ffaa;}.msr{color:#00aa55;}.meme{color:#ff00ff;font-weight:600;}.need-eq{color:#aa0000;font-weight:600;}.thing{background-color:#444444;border-radius:10px;padding:10px;padding-left:52px;}",
+    css:"a{font-weight:600;}.linkToFile{text-decoration:none;}.mnes{color:#bb7700;}.sm{color:#ffff00;}.mf{color:#00ffff;}.mp{color:#ffaa00;}.mph{color:#ff0000;}.mp2{color:#aaaaaa;}.mp3{color:#00aaff;}.aaron{color:#aa00ff;font-weight:600;}.am2r{color:#aaff00;}.mzm{color:#00ffaa;}.msr{color:#00aa55;}.meme{color:#ff00ff;font-weight:600;}.need-eq{color:#aa0000;font-weight:600;}.thing{background-color:#444444;border-radius:10px;padding:10px;padding-left:52px;}",
     info:'<ol class="thing">'
-    + '{-- class="mp">01-Night: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Chozo Ruins--}'
+    + '{-- class="mp">01-Night: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Chozo Ruins'
+	+ '<br>{== class="mf">V0.0.22: Metroid Prime &amp; Fusion Soundtrack (Fusion Side) - Sector 6 (NOC) Dark Area {{needeq}}==}--}'
 	+ '{-- class="mp3">02-Eerie: Metroid Prime 3: Corruption Soundtrack - GFS Valhallah--}'
 	+ '{-- class="mp">03_Overworld_Day: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Planet Tallon IV'
-	+ '<br>{== class="sm">V0.0.21: Super Metroid Soundtrack (GAME RIP) - Theme of Samus Aran Space Warrior==}--}'
+	+ '<br>{== class="sm">V0.0.21: Super Metroid Soundtrack (GAME RIP) - Theme of Samus Aran Space Warrior {{needeq}}==}--}'
 	+ '{-- class="mp">04_Boss_1: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - VS. Hive Totem'
 	+ '<br>{== class="mp2">V0.0.21: Metroid Prime 2: Echoes Soundtrack - VS. Guardian Ing==}--}'
 	+ '{-- class="mnes">05-Old_Title: Metroid OST - Title {{needeq}}--}'
@@ -29,7 +30,8 @@ var projectdb = [
 	+ '{-- class="mp3">08-Hallow: Metroid Prime 3: Corruption Soundtrack - SkyTown--}'
 	+ '{-- class="am2r">09-Underground_Corruption: AM2R Soundtrack - Breeding Grounds--}'
 	+ '{-- class="am2r">10-Underground_Hallow: AM2R Soundtrack - Flooded Complex--}'
-	+ '{-- class="mp">11-Boss_2: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - VS. Meta Ridley--}'
+	+ '{-- class="mp">11-Boss_2: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - VS. Meta Ridley'
+	+ '<br>{== class="mp3">V0.0.22: Metroid Prime 3: Corruption Soundtrack - VS. Mogenar==}--}'
 	+ '{-- class="mp">12-Underground: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Phazon Mines--}'
 	+ '{-- class="mp">13-Boss_3: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - VS. Omega Pirate--}'
 	+ '{-- class="mp">14-Snow: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Ice Valley--}'
@@ -53,9 +55,11 @@ var projectdb = [
 	+ '{-- class="mp">30_Pumpkin_Moon: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Lava Caves (Burning Trail)'
 	+ '<br>{== class="mp3">V0.0.21: Metroid Prime 3: Corruption Soundtrack - Bryyo Fire==}--}'
 	+ '{-- class="mp">31_Alternate_Underground: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Phazon Mines'
-//	+ '<br>{== class="">V0.0.21: ==}--}'
+	+ '<br>{== class="mf">V0.0.22: Metroid Prime &amp; Fusion Soundtrack (Fusion Side) - Sector 3 (PYR) High Temperature Area {{needeq}}==}'
+	+ '--}'
 	+ '{-- class="mp">32_Frost_Moon: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Phazon Area'
-	+ '<br>{== class="mp3">V0.0.21: Metroid Prime 3: Corruption Soundtrack - VS. Helios==}--}'
+	+ '<br>{== class="mp3">V0.0.21: Metroid Prime 3: Corruption Soundtrack - VS. Helios==}'
+	+ '--}'
 	+ '{-- class="mp">33-Underground_Crimson: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - Space Pirates (Main Lab)--}'
 	+ '{-- class="mp">34-Towers: Metroid Prime &amp; Fusion Soundtrack (Prime Side) - VS. Metroid Prime (Spider)--}'
 	+ '{-- class="mp3">35-Pirate_Invasion: Metroid Prime 3: Corruption Soundtrack - VS. Space Pirates--}'
@@ -80,7 +84,9 @@ var projectdb = [
 	+ '{-- class="sm">52-Storm: Super Metroid Soundtrack (GAME RIP) - Crateria Underground (Arrival in Crateria w/o rain and thunder) {{needeq}}--}'
 	+ '{-- class="sm">53-Graveyard: Super Metroid Soundtrack (GAME RIP) - Maridia Quicksand Underground Water Area {{needeq}}--}'
 	+ '{-- class="sm">54-Underground_Jungle: Super Metroid Soundtrack (GAME RIP) - Brinstar Overgrowth {{needeq}}--}'
-	+ '{-- class="msr">55-Jungle_Night: Metroid: Samus Returns Soundtrack - Area 5 (Jungle Caves)--}'
+	+ '{-- class="msr">55-Jungle_Night: Metroid: Samus Returns Soundtrack - Area 5 (Jungle Caves)'
+	+ '<br>{== class="mf">V0.0.22: Metroid Prime &amp; Fusion Soundtrack (Fusion Side) - Sector 2 (TRO) Tropical Area {{needeq}}==}'
+	+ '--}'
 	+ '{-- class="mp2">56-Queen_Slime: Metroid Prime 2: Echoes Soundtrack - VS. Quadraxis--}'
 	+ '{-- class="mp3">57-Empress_Of_Light: Metroid Prime 3: Corruption Soundtrack - VS. Gandrayda--}'
 	+ '{-- class="sm">58-Duke_Fishron: Super Metroid Soundtrack (GAME RIP) - Big Boss Confrontation (Kraid, Crocomire, Phantoon) {{needeq}}--}'
@@ -115,8 +121,9 @@ var projectdb = [
 	+ '{-->87_Terraria-Otherworld_Wall_Of_Flesh: [Default Terraria Music]<br>{== class="msr">V0.0.21: Metroid: Samus Returns Soundtrack - Boss Battle 4: Vs. Zeta Metroid==}--}'
 	+ '{-->88_Terraria-Otherworld_Hallow: [Default Terraria Music]<br>{== class="msr">V0.0.21: Metroid: Samus Returns Soundtrack - The Metroid Hatchling==}--}'
 	+ '{-- class="mp2">89-Terraria_Credits: Metroid Prime 2: Echoes Soundtrack - Ending Staff Roll--}'
+	+ '{-->90_Deerclops: [Default Terraria Music]--}'
 	+ '</ol>'
-	+ '<p>{== style="color:#ff0000;">WARNING==}: The old title, desert, dungeon, sandstorm, old one\'s army, slime rain, new title tracks, storm, graveyard, underground jungle, and duke fishron tracks are potentially lethal, I haven\'t eq\'d them yet. Use at own risk</p>'
+	+ '<p>{== style="color:#ff0000;">WARNING==}: Tracks with the "Possible EQ\'ing required" tag are potentially lethal (to your ears,) I haven\'t eq\'d them yet. Use at own risk</p>'
 	+ '<p>Link to the file: <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.20/Wave%20Bank.xwb' + '">V0.0.20</a> <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.21/Wave%20Bank.xwb' + '">V0.0.21</a></p>'
 	+ '<p class="mnes">You can find the Metroid OST <a href="https://www.metroid-database.com/game/metroid/#audio">here</a></p>'
 	+ '<h5>You do need to click on "Metroid OST"</h5>'
@@ -138,6 +145,7 @@ var projectdb = [
 	+ '<p class="aaron">You can find Aaron\'s remixes of terraria music <a href="https://soundcloud.com/aaron-daniel-713950580/sets/aarons-terraria-remix">here</a></p>'
 	+ '<p>You can find the Default Terraria Music <a href="https://terraria.gamepedia.com/Music">here</a></p>'
 	+ '<p>If a tracklist name is [number]-[name], then it is most likely finalized.<br>If a tracklist name is [number]_[name], then it is most likely in reconsideration.</p>'
+	+ '<p>Note: Terraria and Metroid are owned by Relogic and Nintendo respectively. This modification was made for entertainment purposes only.</p>'
   },
   {
     title:"Minecraft-Metroid-Addon",
@@ -214,5 +222,17 @@ var edittricksdb = [
   {
     text:"==}",
 	replace:'</span>'
+  },
+  {
+	text:"{__",
+	replace:'<a href="'
+  },
+  {
+	text:"}__{",
+	replace:'">'
+  },
+  {
+	text:"__}",
+	replace:'</a>'
   }
 ];
