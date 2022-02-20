@@ -121,7 +121,7 @@ var projectdb = [
 	+ '{-->87_Terraria-Otherworld_Wall_Of_Flesh: [Default Terraria Music]<br>{== class="msr">V0.0.21: Metroid: Samus Returns Soundtrack - Boss Battle 4: Vs. Zeta Metroid==}--}'
 	+ '{-->88_Terraria-Otherworld_Hallow: [Default Terraria Music]<br>{== class="msr">V0.0.21: Metroid: Samus Returns Soundtrack - The Metroid Hatchling==}--}'
 	+ '{-- class="mp2">89-Terraria_Credits: Metroid Prime 2: Echoes Soundtrack - Ending Staff Roll--}'
-	+ '{-->90_Deerclops: [Default Terraria Music]--}'
+	+ '{-->90_Deerclops: [Default Terraria Music]<br>{== class="mp2">V0.0.22: Metroid Prime 2: Echoes Soundtrack - The Ing ~ VS. Ing==}--}'
 	+ '</ol>'
 	+ '<p>{== style="color:#ff0000;">WARNING==}: Tracks with the "Possible EQ\'ing required" tag are potentially lethal (to your ears,) I haven\'t eq\'d them yet. Use at own risk</p>'
 	+ '<p>Link to the file: <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.20/Wave%20Bank.xwb' + '">V0.0.20</a> <a href="' + 'https://github.com/AmiableMarker65/MyStuff/raw/master/v0.0.21/Wave%20Bank.xwb' + '">V0.0.21</a></p>'
